@@ -10,10 +10,10 @@ export default function PlayStack() {
     return (
         <Stack.Navigator initialRouteName="Home">
             <Stack.Screen name="Home" component={Home} />
-            <Stack.Screen name="Add" component={Add} />
-            <Stack.Screen name="Sub" component={Sub} />
-            <Stack.Screen name="Mul" component={Mul} />
-            <Stack.Screen name="Div" component={Div} />
+            <Stack.Screen name="Addition" component={Add} />
+            <Stack.Screen name="Subtraction" component={Sub} />
+            <Stack.Screen name="Multiplication" component={Mul} />
+            <Stack.Screen name="Division" component={Div} />
         </Stack.Navigator>
     );
 };

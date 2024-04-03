@@ -10,7 +10,7 @@ export default function Home({ navigation }) {
       <View style={styles.homeGrid}>
         <View>
           <View>
-            <TouchableOpacity onPress={() => { navigation.navigate("Add") }} style={styles.opButton}>
+            <TouchableOpacity onPress={() => { navigation.navigate("Addition") }} style={styles.opButton}>
               <FontAwesome name="plus" size={DeviceWidth * 0.3} color="blue" style={styles.centerize} />
               <Text style={styles.centerize}>
                 Addition
@@ -18,7 +18,7 @@ export default function Home({ navigation }) {
             </TouchableOpacity>
           </View>
           <View>
-            <TouchableOpacity onPress={() => { navigation.navigate("Mul") }} style={styles.opButton}>
+            <TouchableOpacity onPress={() => { navigation.navigate("Multiplication") }} style={styles.opButton}>
               <AntDesign name="close" size={DeviceWidth * 0.3} color="green" style={styles.centerize} />
               <Text style={styles.centerize}>
                 Multipication
@@ -28,7 +28,7 @@ export default function Home({ navigation }) {
         </View>
         <View>
           <View>
-            <TouchableOpacity onPress={() => { navigation.navigate("Sub") }} style={styles.opButton}>
+            <TouchableOpacity onPress={() => { navigation.navigate("Subtraction") }} style={styles.opButton}>
               <FontAwesome name="minus" size={DeviceWidth * 0.3} color="red" style={styles.centerize} />
               <Text style={styles.centerize}>
                 Subtraction
@@ -36,7 +36,7 @@ export default function Home({ navigation }) {
             </TouchableOpacity>
           </View>
           <View>
-            <TouchableOpacity onPress={() => { navigation.navigate("Div") }} style={styles.opButton}>
+            <TouchableOpacity onPress={() => { navigation.navigate("Division") }} style={styles.opButton}>
               <FontAwesome5 name="divide" size={DeviceWidth * 0.3} color="orange" style={styles.centerize} />
               <Text style={styles.centerize}>
                 Division
