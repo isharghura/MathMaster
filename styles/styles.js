@@ -1,11 +1,13 @@
 import { StyleSheet, Dimensions } from 'react-native';
+
 const DeviceWidth = Dimensions.get("window").width;
+
 export const styles = StyleSheet.create({
     container: {
-      flex: 1,
-      backgroundColor: '#fff',
-      alignItems: 'center',
-      justifyContent: 'center',
+        flex: 1,
+        backgroundColor: '#ececec',
+        alignItems: 'center',
+        justifyContent: 'center',
     },
     homeMain: {
         flex: 1,
@@ -23,4 +25,4 @@ export const styles = StyleSheet.create({
     centerize: {
         alignSelf: "center"
     }
-  });
+});
