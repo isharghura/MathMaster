@@ -7,7 +7,7 @@ export default function Profile({ navigation }) {
   const { userName, lvl, addScore, subScore, mulScore, divScore, netScore } = useContext(AuthContext);
   return (
     <View style={styles.container}>
-      <Text>The current level of difficulty is {lvl}.</Text>
+      <Text>The current level of difficulty is {lvl + 1}.</Text>
       <Text>Your score in addition is {addScore}.</Text>
       <Text>Your score in subtraction is {subScore}.</Text>
       <Text>Your score in multiplication is {mulScore}.</Text>
